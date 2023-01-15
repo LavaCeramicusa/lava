@@ -257,7 +257,7 @@ const Header = () => {
                           <h6 className='tracking-wider text-sm text-gray-400 uppercase mr-5'>
                             Active date:
                           </h6>
-                          <p>{renderDate}</p>
+                          <p>{card.activeDate}</p>
                         </div>
                         <div className='flex items-end min-h-[24px] my-1'>
                           <h6 className='shrink-0 text-sm tracking-wider text-gray-400 uppercase mr-5'>
