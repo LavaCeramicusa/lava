@@ -235,49 +235,49 @@ const Header = () => {
 
                     {card && (
                       <div className='mt-8 text-left md:min-w-[450px]'>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='text-sm tracking-wider text-gray-400 uppercase mr-5'>
                             Code:
                           </h6>
                           <p>{card.code}</p>
                         </div>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='text-sm tracking-wider text-gray-400 uppercase mr-5'>
                             Type:
                           </h6>
                           <p>{card.type}</p>
                         </div>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='tracking-wider text-sm text-gray-400 uppercase mr-5'>
                             Period active:
                           </h6>
                           <p>{renderPeriod}</p>
                         </div>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='tracking-wider text-sm text-gray-400 uppercase mr-5'>
                             Active date:
                           </h6>
                           <p>{card.activeDate}</p>
                         </div>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='shrink-0 text-sm tracking-wider text-gray-400 uppercase mr-5'>
                             Customer name:
                           </h6>
                           <p className='break-word'>{card.customerName}</p>
                         </div>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='tracking-wider text-sm text-gray-400 uppercase mr-5'>
                             Customer Phone Number:
                           </h6>
                           <p>{card.customerPhoneNumber}</p>
                         </div>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='shrink-0 text-sm tracking-wider text-gray-400 uppercase mr-5'>
                             Customer Email:
                           </h6>
                           <p className='break-word'>{card.customerEmail}</p>
                         </div>
-                        <div className='flex items-end min-h-[24px] my-1'>
+                        <div className='flex items-baseline min-h-[24px] my-1'>
                           <h6 className='shrink-0 text-sm tracking-wider text-gray-400 uppercase mr-5'>
                             Customer Address:
                           </h6>
