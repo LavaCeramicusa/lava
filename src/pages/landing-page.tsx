@@ -23,7 +23,7 @@ const Landing = () => {
     <div>
       <Header />
 
-      <section className='bg-green-100'>
+      {/* <section className='bg-green-100'>
         <div className='max-w-7xl mx-auto flex flex-col p-5 md:flex-row md:flex-wrap xl:p-20 gap-3'>
           {services.map((service) => (
             <div
@@ -43,14 +43,14 @@ const Landing = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <div className='px-5 py-20 xl:px-20'>
         <h3 className='text-center text-5xl'>Our Personnels</h3>
         <Slider />
       </div>
 
-      <div className='w-full p-5 xl:p-20 py-16 bg-amber-50'>
+      {/* <div className='w-full p-5 xl:p-20 py-16 bg-amber-50'>
         <div className='max-w-7xl mx-auto'>
           <Tab.Group>
             <Tab.List className='flex flex-col md:flex-row space-x-1 rounded-xl bg-blue-400 p-1'>
@@ -96,7 +96,7 @@ const Landing = () => {
             </Tab.Panels>
           </Tab.Group>
         </div>
-      </div>
+      </div> */}
 
       <section className='px-5 lg:px-20 my-32'>
         <div className='text-center'>
